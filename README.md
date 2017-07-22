@@ -4,6 +4,7 @@ Use TensorFlow to generate beautiful fractals, including the Mandelbrot Set and 
 ## Requirements:
 - TensorFlow >= 1.0
 - PIL
+- moviepy(Optional, only useful when making a gif)
 
 ## Generate the Standard Mandelbrot Set:
 
@@ -51,6 +52,17 @@ Will get:
 ![](https://github.com/hzy46/tensorflow-fractal-playground/blob/master/img/j3.png?raw=true)
 
 Try more settings by yourself!
+
+In addition, you can make an animation with Julia Set, Run:
+
+```
+python julia_gif.py
+```
+
+Then check out "julia_gif.gif":
+
+![](https://github.com/hzy46/tensorflow-fractal-playground/blob/master/img/julia_gif.gif?raw=true)
+
 
 ## Explore the Mandelbrot Set:
 
