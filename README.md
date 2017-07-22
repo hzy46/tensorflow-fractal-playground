@@ -1,11 +1,11 @@
 # tensorflow-fractal-playground
-Use TensorFlow to generate beautiful fractals.
+Use TensorFlow to generate beautiful fractals, including the Mandelbrot Set and the Julia set.
 
 ## Requirements:
 - TensorFlow >= 1.0
 - PIL
 
-## Generate Standard Mandelbrot Set:
+## Generate the Standard Mandelbrot Set:
 
 Run:
 ```
@@ -16,7 +16,7 @@ and check "mandelbrot.png":
 
 ![](https://github.com/hzy46/tensorflow-fractal-playground/blob/master/img/m0.png?raw=true)
 
-## Generate Julia set:
+## Generate the Julia set:
 
 Run:
 ```
@@ -27,7 +27,7 @@ and check "julia.png":
 
 ![](https://github.com/hzy46/tensorflow-fractal-playground/blob/master/img/j1.png?raw=true)
 
-Modify the settings in julia.py to get a differnt Julia Set. The variable "c" is corresponding to the c of Julia Set. The variable "bg_ratio" and "ratio" is used to set the colors.
+Modify the settings in julia.py to get a differnt Julia Set. The variable "c" is corresponding to the c of a Julia Set. The variable "bg_ratio" and "ratio" is used to set the colors.
 
 Use the setting:
 ```
